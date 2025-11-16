@@ -93,10 +93,19 @@ export default function Home() {
       {/* Header */}
       <header className="bg-white border-b-2 border-gray-200 shadow-sm sticky top-0 z-10">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
-          <h1 className="text-4xl font-bold text-gray-900 mb-2">
-            Stock Market News
-          </h1>
-          <p className="text-gray-600 text-lg">
+          <div className="flex items-center gap-4 mb-2">
+            <img 
+              src="/logo.svg" 
+              alt="Stock Market News Logo" 
+              className="w-12 h-12 flex-shrink-0"
+            />
+            <div>
+              <h1 className="text-4xl font-bold text-gray-900">
+                Stock Market News
+              </h1>
+            </div>
+          </div>
+          <p className="text-gray-600 text-lg ml-16">
             Latest news about top companies from multiple sources
           </p>
         </div>
